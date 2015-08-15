@@ -1,0 +1,78 @@
+$nav-background: #5bc0de; 
+$nav-active: #89daf2;
+
+body {
+	background-image: url('../img/write.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+
+#login {
+	margin-top: 20%;
+}
+
+#login-dugme {
+	font-size: 18px;   			//
+	border-radius: 0px;			//  Sign in dugme
+	height: 45px;				//	u okviru login forme
+	width: 100%;				// 
+	opacity: 0.9;
+}
+
+#inputEmail3, #inputPassword3 {
+	border-radius: 0px;			//
+	height: 45px;				// Polja username i password
+	opacity: 0.9;				// 
+	width: 100%;
+}
+
+#lozinka {
+	font-size: 16px;			//
+	text-decoration: none;		// 
+	color: white;				//  Zaboravili ste lozinku? link 
+	font-weight: bold;			//
+	display: block;				//
+    margin-left: auto;			//
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+// ======= Navbar ========= 
+.navbar, .navbar-default, .navbar-collapse, .navbar-form, #logo {
+    background-color: $nav-background;
+    color: white;
+    background: transparent;
+}
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {		//
+	color: white;						//  navbar - link
+	font-weight: bold;	
+	opacity: 1;							//
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover  {
+	background-color: transparent; 		//
+	color: $nav-active;					//  navbar active color
+	font-weight: bold;	
+	opacity: 1;							//
+}
+
+.navbar-brand {
+	color: white;
+}
+
+#logo {
+	background: transparent;
+}
+// =========== End of navbar =================

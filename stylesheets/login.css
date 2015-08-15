@@ -1,0 +1,77 @@
+/* line 4, ../sass/login.scss */
+body {
+  background-image: url("../img/write.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* line 13, ../sass/login.scss */
+#login {
+  margin-top: 20%;
+}
+
+/* line 17, ../sass/login.scss */
+#login-dugme {
+  font-size: 18px;
+  border-radius: 0px;
+  height: 45px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* line 25, ../sass/login.scss */
+#inputEmail3, #inputPassword3 {
+  border-radius: 0px;
+  height: 45px;
+  opacity: 0.9;
+  width: 100%;
+}
+
+/* line 32, ../sass/login.scss */
+#lozinka {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 48, ../sass/login.scss */
+.navbar, .navbar-default, .navbar-collapse, .navbar-form, #logo {
+  background-color: #5bc0de;
+  color: white;
+  background: transparent;
+}
+
+/* line 53, ../sass/login.scss */
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 0px;
+}
+
+/* line 58, ../sass/login.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* line 64, ../sass/login.scss */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  color: #89daf2;
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* line 73, ../sass/login.scss */
+.navbar-brand {
+  color: white;
+}
